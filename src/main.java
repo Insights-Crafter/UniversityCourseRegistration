@@ -1,15 +1,22 @@
-public class main
-{
-    public static void main(String[] args)
-    {
-         Student student1 = new Student(135,"Abdul Samad",
-                 "Software Engineering");
+public class main {
 
-         Course course1 = new Course("ENG101","Fundamentals of English",3);
+    public static void main(String[] args) {
 
+        Student student = new Student(
+                135,
+                "Abdul Samad",
+                "Software Engineering"
+        );
 
-       Student.displayStudentInfo(student1);
+        Course course = new Course(
+                "SE-305",
+                "Software Engineering",
+                3
+        );
 
-        Course.displayCourseInfo(course1);
+        Registration registration =
+                new Registration(student, course);
+
+        registration.displayRegistration();
     }
 }
