@@ -16,4 +16,15 @@ public class Registration {
 
         System.out.println("================================");
     }
+    public void displayConfirmation() {
+
+        System.out.println();
+        System.out.println("===== Registration Confirmation =====");
+        System.out.println("Registration Successful!");
+        System.out.println("Student " + student.studentName
+                + " has been registered for "
+                + course.courseTitle + ".");
+        System.out.println("=====================================");
+    }
+
 }

@@ -18,5 +18,7 @@ public class main {
                 new Registration(student, course);
 
         registration.displayRegistration();
+
+        registration.displayConfirmation();
     }
 }
