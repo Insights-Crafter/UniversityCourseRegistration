@@ -5,8 +5,11 @@ public class main
          Student student1 = new Student(135,"Abdul Samad",
                  "Software Engineering");
 
-        System.out.println(student1.studentName);
-        System.out.println(student1.studentID );
-        System.out.println(student1.Department);
+         Course course1 = new Course("ENG101","Fundamentals of English",3);
+
+
+       Student.displayStudentInfo(student1);
+
+        Course.displayCourseInfo(course1);
     }
 }
